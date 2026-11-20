@@ -1,0 +1,28 @@
+name: isolates_in_practice
+description: "Real-world uses of Dart isolates in Flutter: compute, Isolate.run, Isolate.spawn, long-lived workers and isolate groups."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  archive: ^4.7.1
+  crypto: ^3.0.8
+  file_picker: ^13.4.0
+  flutter:
+    sdk: flutter
+  image: ^4.13.1
+  lottie: ^3.8.2
+  path_provider: ^2.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sample_photo.jpg
+    - assets/lottie_bundle.zip
